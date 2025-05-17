@@ -31,16 +31,27 @@ You can view the website live via GitHub Pages here:
 
 .
 ├── audio/
+
 │ └── escalon.mp3 (Audio file)
+
 ├── Assests/
+
 │ ├── cover.jpg (Cover music)
+
 │ └── screenshot.png (Screenshot)
+
 ├── scripts/
+
 │ └── player.js (JavaScript code for music control)
+
 ├── styles/
+
 │ ├── base.css (CSS code for base styles)
+
 │ ├── ui.css (CSS code for ui styles)
+
 │ └── Responsive.css (CSS code for Responsive styles)
+
 └── index.html (Main HTML file)
 
 ## 🎮 Features
