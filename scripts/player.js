@@ -24,12 +24,12 @@ playBtn.addEventListener('click', () => {
 
 audio.addEventListener('play', () => {
   isPlaying = true;
-  playBtn.textContent = '⏸';
+  playBtn.className = 'fa-solid fa-play';
 });
 
 audio.addEventListener('pause', () => {
   isPlaying = false;
-  playBtn.textContent = '▶️';
+  playBtn.className = 'fa-solid fa-pause'; 
 });
 
 seekBar.addEventListener('input', () => {

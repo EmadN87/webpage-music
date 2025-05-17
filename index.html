@@ -6,6 +6,7 @@
         <title>Web Music Player</title>
         <link rel="stylesheet" href="styles/base.css" />
         <link rel="stylesheet" href="styles/ui.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
     </head>
     <body>
         <div class="player-container">
@@ -17,9 +18,9 @@
                 <p class="track-artist">Shiro Sagisu </p>
             </div>
             <div class="controls">
-                <button id="prevBtn">⏮</button>
-                <button id="playBtn">▶️</button>
-                <button id="nextBtn">⏭</button>
+                <button id="prevBtn" class="fa-solid fa-backward"></button>
+                <button id="playBtn" class="fa-solid fa-play"></button>
+                <button id="nextBtn" class="fa-solid fa-forward"></button>
             </div>
             <input type="range" id="seekBar" value="0" max="100" />
             <div class="time-info">
