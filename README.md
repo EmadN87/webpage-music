@@ -6,7 +6,6 @@ A simple and elegant web page that allows users to play and pause a predefined s
 
 ## 🔗 Live Demo
 
-You can view the website live via GitHub Pages here:  
 👉 [https://to-do-emad.netlify.app/](https://music-emad.netlify.app/)
 
 ## 🚀 Features
