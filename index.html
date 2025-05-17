@@ -1,38 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="fa">
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>music website</title>
-        <meta name="description" content="" />
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <title>Web Music Player</title>
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/ui.css" />
     </head>
-
     <body>
-        <div class="container">
-            <div class="nav">
-                <i id="logo" class="fa-solid fa-music fa-fade fa-xl"></i>                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SPECIFICATIONS</a></li>
-                    <li><a href="#">CONNECT</a></li>
-                </ul>
+        <div class="player-container">
+            <div class="cover-art">
+                <img src="Assests/cover.jpg" alt="Album Cover" />
             </div>
-            <div class="content">
-                <div class="left"><h1>THE<br> REAL<br> SOUND</h1></div>
-                <div class="right">
-                    <p>Click here to listen</p>
-                    <i id="icon" class="fa-solid fa-circle-play"></i>                
-                </div>
+            <div class="track-info">
+                <h2 class="track-title">Name track</h2>
+                <p class="track-artist">Shiro Sagisu </p>
+            </div>
+            <div class="controls">
+                <button id="prevBtn">⏮</button>
+                <button id="playBtn">▶️</button>
+                <button id="nextBtn">⏭</button>
+            </div>
+            <input type="range" id="seekBar" value="0" max="100" />
+            <div class="time-info">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
             </div>
         </div>
-        <audio id="music">
-            <source src="Assests/escalon.mp3" type="audio/mp3">
-        </audio>
-        <script src="script.js"></script>
+        <script src="scripts/player.js"></script>
     </body>
 </html>
