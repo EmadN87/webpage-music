@@ -103,8 +103,3 @@
 
 <h2>🤝 Contributing</h2>
 <p>Feel free to contribute through Pull Requests or by opening Issues.</p>
-
-<br>
-<div align="center" style="font-size: 0.9em; color: #777;">
-  <p>✨ <em>This README was enhanced with a touch of HTML!</em> ✨</p>
-</div>
